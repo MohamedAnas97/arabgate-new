@@ -1,0 +1,19 @@
+/* company page banner Image */
+.company-banner {
+  background-image: url("../../public/assets/company/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.value-banner {
+  background-image: url("../../public/assets/company/values.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Scrollbar styles */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #777 #f1f1f1;
+}

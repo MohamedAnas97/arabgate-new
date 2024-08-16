@@ -1,0 +1,31 @@
+/* Become a host page banner Image */
+.becomebanner {
+  background-image: url("../../public/assets/become/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.sitebanner {
+  background-image: url("../../public/assets/become/site-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.serviceCard {
+  position: relative;
+  overflow: hidden;
+}
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.imageContainer img {
+  transition: transform 0.3s ease-in-out;
+}
+.imageContainer:hover img {
+  transform: scale(1.1);
+  filter: brightness(60%);
+}

@@ -1,0 +1,37 @@
+{
+  "name": "duomo-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "^5.19.0",
+    "aos": "^2.3.4",
+    "axios": "^1.7.2",
+    "country-list": "^2.3.0",
+    "i": "^0.3.7",
+    "next": "14.2.4",
+    "npm": "^10.8.2",
+    "react": "^18",
+    "react-animate-height": "^3.2.3",
+    "react-dom": "^18",
+    "react-multi-carousel": "^2.8.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-show-more-text": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

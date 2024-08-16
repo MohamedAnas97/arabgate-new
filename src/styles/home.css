@@ -1,0 +1,107 @@
+/* Homepage Banner Image */
+.banner_img {
+  background-image: url("../../public/assets/home/slider4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+/* banner form placeholer */
+.placeholder-red::placeholder {
+  color: #161e2d;
+}
+/* home page banner width */
+.home-banner {
+  width: 70% !important;
+}
+/* contact form placeholder */
+.placeholder-contact::placeholder {
+  color: #001d3d;
+}
+/* humbergur background overflow */
+.overflow-hidden {
+  overflow: hidden;
+}
+/* home page banner text change animation css */
+.animated-text {
+  display: inline-block;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.animated-text.animate {
+  opacity: 0;
+  transform: translateY(40%);
+}
+
+.animated-text:not(.animate) {
+  opacity: 1;
+  transform: translateY(0);
+}
+.column-container:hover .rotate-image {
+  transform: rotateY(360deg);
+}
+.rotate-image {
+  transition: transform 0.8s ease;
+}
+.hero-bottom-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hero-bottom-image img {
+  max-width: calc(100% - 70px);
+}
+@media only screen and (max-width: 575px) {
+  .hero-bottom-image img {
+    max-width: calc(100% - 50px);
+  }
+}
+.hero-social {
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1199px) {
+  .hero-social {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-social {
+    margin-left: 5px;
+  }
+}
+.hero-social h6 {
+  color: #111827;
+  text-transform: capitalize;
+  -webkit-writing-mode: vertical-lr;
+}
+.hero-social h6:hover {
+  color: #111827;
+  text-decoration: underline;
+}
+.hero-social h6 img {
+  margin-bottom: 5px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+@media only screen and (max-width: 991px) {
+  .hero-social h6 span {
+    display: none;
+  }
+}

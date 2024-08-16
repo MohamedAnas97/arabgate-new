@@ -1,0 +1,65 @@
+@media (max-width: 1839px) and (min-width: 1565px) {
+  .home-banner {
+    width: 77% !important;
+  }
+}
+@media (max-width: 1564px) and (min-width: 1096px) {
+  .home-banner {
+    width: 88% !important;
+  }
+}
+@media (max-width: 1095px) and (min-width: 1024px) {
+  .home-banner {
+    width: 90% !important;
+  }
+}
+@media (max-width: 1024px) and (min-width: 280px) {
+  .home-banner {
+    width: 90% !important;
+  }
+}
+@media (max-width: 768px) and (min-width: 280px) {
+  .banner_img {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) and (min-width: 280px) {
+  .becomebanner {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) and (min-width: 280px) {
+  .bookbanner {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) and (min-width: 280px) {
+  .company-banner {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) and (min-width: 280px) {
+  .company-banner {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 768px) and (min-width: 280px) {
+  .contact-banner {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 3000px) and (min-width: 2046px) {
+  .truncate-2-lines1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (max-width: 600px) and (min-width: 250px) {
+  .loader {
+    width: 50px;
+    height: 50px;
+  }
+}

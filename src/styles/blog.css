@@ -1,0 +1,14 @@
+.blogbanner {
+  background-image: url("../../public/assets/blog/blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left;
+}
+.helpbanner {
+  background-image: url("../../public/assets/blog/help.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
