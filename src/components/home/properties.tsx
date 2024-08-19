@@ -69,7 +69,7 @@ const Properties = () => {
       <div className="2xl:mx-[18%] xl:mx-[12%] md:mx-[8%] mx-[5%] py-10">
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 2xl:gap-12 xl:gap-x-10 md:gap-x-8 md:gap-y-10 gap-y-6">
           {data?.map((items, index) => (
-            <div key={index} className="shadow-md rounded-lg bg-[#ffffffd4]">
+            <div key={index} className="shadow-md rounded-lg bg-[#f7f8f4]">
               <div>
                 <Image
                   src={items?.images}
@@ -87,7 +87,7 @@ const Properties = () => {
                 <div className="flex items-center justify-end">
                   <div className="flex items-center justify-center rounded-[5px] transition ease-in-out delay-150 duration-200 cursor-pointer ">
                     <div className="flex items-center ">
-                      <h6 className="text-[14px] font-bold leading-[20px] text-[#a88c61] manrope-font">
+                      <h6 className="text-[14px] font-bold leading-[20px] text-[#AB7829] manrope-font">
                         Read More
                       </h6>
                       <Image

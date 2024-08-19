@@ -193,7 +193,7 @@ const Header = () => {
         </div>
         <div className="lg:block hidden ">
           <button
-            className="text-[14px] font-bold leading-[20px] text-center manrope-font px-8 py-3 bg-[#a88c61] text-[#fff] hover:text-[#161E2D] hover:bg-[#CF9A2C] transition ease-in-out delay-150 duration-200 rounded-md "
+            className="text-[14px] font-bold leading-[20px] text-center manrope-font px-8 py-3 bg-[#98753F] text-[#fff] transition ease-in-out delay-150 duration-200 rounded-md "
             onClick={() => {
               router.push("/contact-us");
             }}
